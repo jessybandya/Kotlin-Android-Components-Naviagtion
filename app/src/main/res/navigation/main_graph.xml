@@ -9,7 +9,9 @@
         android:id="@+id/secondFragment"
         android:name="com.example.components_naviagtion.SecondFragment"
         android:label="fragment_second"
-        tools:layout="@layout/fragment_second" />
+        tools:layout="@layout/fragment_second" >
+
+    </fragment>
     <fragment
         android:id="@+id/thirdFragment"
         android:name="com.example.components_naviagtion.ThirdFragment"
@@ -26,5 +28,11 @@
         <action
             android:id="@+id/action_firstFragment2_to_thirdFragment"
             app:destination="@id/thirdFragment" />
+        <argument
+            android:name="myInt"
+            app:argType="integer" />
+        <argument
+            android:name="myStr"
+            app:argType="string" />
     </fragment>
 </navigation>
