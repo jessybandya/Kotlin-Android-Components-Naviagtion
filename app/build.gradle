@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
 }
 
 android {
@@ -30,6 +31,8 @@ android {
         jvmTarget = '1.8'
     }
 }
+
+
 
 dependencies {
     def nav_version = "2.4.2"
